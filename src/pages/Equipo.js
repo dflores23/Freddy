@@ -1,11 +1,10 @@
 import React from 'react'
-import { LoremIpsum, Avatar } from 'react-lorem-ipsum';
 
-export default function About() {
+
+export default function Equipo() {
     return (
         <div>
-         <LoremIpsum></LoremIpsum>
-         <Avatar></Avatar>
+      <h1>Equipo</h1>
         </div>
     )
 }

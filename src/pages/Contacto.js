@@ -1,10 +1,9 @@
 import React from 'react'
 
-
-export default function Inicio() {
+export default function Contacto() {
     return (
         <div>
-            <h1>Inicios</h1>
+            <h1>Contacto</h1>
         </div>
     )
 }

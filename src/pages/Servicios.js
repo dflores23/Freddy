@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Contactanos() {
+export const Servicios = () => {
     return (
         <div>
-            <h1>Contactanos</h1>
+            <h1>Servicios</h1>
         </div>
     )
 }
