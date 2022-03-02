@@ -1,9 +1,6 @@
-.App {
-  text-align: center;
-}
-
-img {
+.img1 {
   width: 100%;
   height: 450px;
-  padding: 20px;
+  padding: 5px;
+  /* opacity: .7; */
 }
