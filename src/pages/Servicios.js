@@ -1,19 +1,30 @@
 import React from 'react'
 
+
 export const Servicios = () => {
     return (
         <div>
-            <ul>
-                <li>Detallado Estético exterior </li>
-                <li>Derallado Estético Interior</li>
-                <li>Encerado</li>
-                <li>Descontaminación</li>
-                <li>Protección cerámica basé silicio</li>
-                <li>Protección cerámica base grafeno</li>
-                <li>Audio</li>
-                <li>Accesorios</li>
-                <li>Alarmas</li>
-                <li>Polarizado</li>
+            <ul class="text-center text-uppercase">
+                <ol>Detallado Estético exterior </ol>
+   
+                <ol>Derallado Estético Interior</ol>
+              
+                <ol>Encerado</ol>
+
+                <ol>Descontaminación</ol>
+                
+                <ol>Protección cerámica basé silicio</ol>
+                
+                <ol>Protección cerámica base grafeno</ol>
+                
+                <ol>Audio</ol>
+                
+                <ol>Accesorios</ol>
+                
+                <ol>Alarmas</ol>
+                
+                <ol>Polarizado</ol>
+                
             </ul>
         </div>
     )
