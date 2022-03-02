@@ -4,9 +4,10 @@ import {Link} from "react-router-dom";
 
 
 export default function Bar() {
+  
     return (
         <div>
-<Navbar bg="light" expand="lg">
+<Navbar collapseOnSelect expand="sm" bg="light" >
   <Container fluid>
     <Navbar.Brand href="#">Freddy's Auto Detail</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
