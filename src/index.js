@@ -9,6 +9,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
 ReactDOM.render(
   <BrowserRouter>

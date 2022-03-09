@@ -4,8 +4,8 @@ import Inicio from './pages/Inicio';
 import Equipo from './pages/Equipo';
 import {Routes, Route } from 'react-router-dom';
 import { Servicios } from './pages/Servicios';
-import Contacto from './pages/Contacto';
 import { Header } from './pages/Header';
+import Footer from './components/Footer'
 
 
 function App() {
@@ -17,8 +17,9 @@ function App() {
         <Route path="/" element={<Inicio />} />,
         <Route path="/equipo" element={<Equipo />} />,
         <Route path="/servicios" element={<Servicios />} />,
-        <Route path="/contacto" element={<Contacto />} />,
       </Routes>
+      <br/>
+      <Footer />
     </div>
   );
 }

@@ -9,8 +9,7 @@ export default function Equipo() {
             <Avatar gender="female" className="avatar" width="200" height="200" alt="Avatar" />
             <div className="name">{name('female')}</div>
             <div className="surname">{surname()}</div>
-            <div className="username">{username()}</div>
-            <br></br>
+            <div className="username">{username()}</div> 
             <Avatar className="picture" gender="male" className="avatar" width="200" height="200" alt="Avatar" />
             <div className="name">{name('male')}</div>
             <div className="surname">{surname()}</div>
@@ -19,7 +18,6 @@ export default function Equipo() {
             <div className="name">{name('female')}</div>
             <div className="surname">{surname()}</div>
             <div className="username">{username()}</div>
-            <br></br>
             <Avatar className="picture" gender="male" className="avatar" width="200" height="200" alt="Avatar" />
             <div className="name">{name('male')}</div>
             <div className="surname">{surname()}</div>
