@@ -17,7 +17,7 @@ export default function App() {
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Freddy's Auto Detail</MDBNavbarBrand>
+        <MDBNavbarBrand href='inicio'>Freddy's Auto Detail</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
