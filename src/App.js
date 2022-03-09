@@ -4,7 +4,7 @@ import Inicio from './pages/Inicio';
 import Equipo from './pages/Equipo';
 import {Routes, Route } from 'react-router-dom';
 import { Servicios } from './pages/Servicios';
-import { Header } from './pages/Header';
+import Header from './pages/Header';
 import Footer from './components/Footer'
 
 

@@ -1,31 +1,50 @@
-import React from 'react'
-import { Navbar, Container, Nav} from 'react-bootstrap' 
-import {Link} from "react-router-dom";
+import React, { useState } from 'react';
+import {
+  MDBContainer,
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarToggler,
+  MDBIcon,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBCollapse
+} from 'mdb-react-ui-kit';
 
+export default function App() {
+  const [showBasic, setShowBasic] = useState(false);
 
-export default function Bar() {
-  
-    return (
-        <div>
-<Navbar collapseOnSelect expand="sm" bg="light" >
-  <Container fluid>
-    <Navbar.Brand as={Link} to="/">Freddy's Auto Detail</Navbar.Brand>
-    <Navbar.Toggle aria-controls="navbarScroll" />
-    <Navbar.Collapse id="navbarScroll">
-      <Nav
-        className="me-auto my-2 my-lg-0"
-        style={{ maxHeight: '100px' }}
-        navbarScroll
-      >
-        <Nav.Link as={Link} to="/">Inicio</Nav.Link>
-        <Nav.Link as={Link} to="/equipo">Equipo</Nav.Link>
-        <Nav.Link as={Link} to="/servicios">Servicios</Nav.Link>
-        <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>
-      </Nav>
-      
-    </Navbar.Collapse>
-  </Container>
-</Navbar>
-        </div>
-    )
+  return (
+    <MDBNavbar expand='lg' light bgColor='light'>
+      <MDBContainer fluid>
+        <MDBNavbarBrand href='#'>Freddy's Auto Detail</MDBNavbarBrand>
+
+        <MDBNavbarToggler
+          aria-controls='navbarSupportedContent'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+          onClick={() => setShowBasic(!showBasic)}
+        >
+          <MDBIcon icon='bars' fas />
+        </MDBNavbarToggler>
+
+        <MDBCollapse navbar show={showBasic}>
+          <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
+            <MDBNavbarItem>
+              <MDBNavbarLink active aria-current='page' href='/'>
+                Inicio
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='equipo'>Equipo</MDBNavbarLink>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem>
+              <MDBNavbarLink href='servicios'>Servicios</MDBNavbarLink>
+            </MDBNavbarItem>
+          </MDBNavbarNav>
+        </MDBCollapse>
+      </MDBContainer>
+    </MDBNavbar>
+  );
 }

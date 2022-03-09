@@ -8,8 +8,8 @@ import {
 
 export default function App() {
     return (
-        <MDBFooter className='text-center' color='white' bgColor='dark'>
-            <MDBContainer className='p-4'>
+        <MDBFooter className='example-square bg-transparent shadow-1-strong text-dark'>
+            <MDBContainer className='p-0'>
                 <section className='mb-4'>
                     <a className='btn btn-outline-light btn-floating m-1' href='https://www.facebook.com/search/top?q=freddy%E2%80%99s%20auto%20detail%20detallado' role='button'>
                         <MDBIcon fab icon='facebook-f' />
@@ -44,10 +44,10 @@ export default function App() {
                 </div>
             </section>
 
-            <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+            <div className='text-center p-2' style={{ backgroundColor: 'rgba(0, 0, 0, 0.02)' }}>
                 © 2022 Copyright:
-                <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-                    David Flores
+                <a className='text-reset fst-italic' href='https://mdbootstrap.com/'>
+                     David Flores
                 </a>
             </div>
         </MDBFooter>

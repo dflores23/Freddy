@@ -1,10 +1,3 @@
-.picture {
-  width: 100%;
-  height: 360px;
-  opacity: .9;
-  min-width: auto;
-  max-height: 711px;
-  padding: 5px;
-}
+
 
 @import '~mdb-ui-kit/css/mdb.min.css';
