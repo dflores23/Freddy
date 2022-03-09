@@ -14,7 +14,7 @@ function App() {
       <Bar />
       <Header />
       <Routes>
-        <Route path="/" element={<Inicio />} />,
+        <Route exact path="/" element={<Inicio />} />,
         <Route path="/equipo" element={<Equipo />} />,
         <Route path="/servicios" element={<Servicios />} />,
       </Routes>

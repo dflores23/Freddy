@@ -7,7 +7,7 @@ export default function Bar() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar sticky='top' bg="light" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">Freddy's</Navbar.Brand>
         <Navbar.Toggle

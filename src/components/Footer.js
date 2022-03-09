@@ -22,22 +22,25 @@ export default function App() {
                 </section>
             </MDBContainer>
             <section className='footer'>
-                <div className='container text-center text-md-start mt-4'>
-                    <div className='row mt-3'>
+                <div className='container text-center text-md-start mt-0'>
+                    <div className='row mt-5'>
                         <div className='col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4'>
                             <h6 className='text-center text-uppercase fw-bold mb-4'>Contacto</h6>
                             <p className="text-center">
-                                <i className='fas fa-home me-3'></i> Guadalajara, Jalisco 44820, MX
+                                <i className='fas fa-home me-3'></i> Guadalajara, Jalisco 44898, MX
                             </p>
                             <p>
                                 <i className='fas fa-envelope me-3'></i>
-                                freddy's@example.com
+                                freddy_detallado@hotmail.com
                             </p>
                             <p className='text-center'>
-                                <i className='fas fa-phone me-3'></i> + 01 234 567 88
+                                <i className='fas fa-phone me-3'></i> Abierto de Lunes a Viernes 9:00 am - 7:00pm
                             </p>
                             <p className='text-center'>
-                                <i className='fas fa-print me-3'></i> + 01 234 567 89
+                                <i className='fas fa-phone me-3'></i> Sabados 9:00 am - 2:00pm
+                            </p>
+                            <p className='text-center'>
+                                <i className='fas fa-print me-3'></i> +52 33 3384 2373
                             </p>
                         </div>
                     </div>
