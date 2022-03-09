@@ -9,7 +9,7 @@ export default function Bar() {
         <div>
 <Navbar collapseOnSelect expand="sm" bg="light" >
   <Container fluid>
-    <Navbar.Brand href="#">Freddy's Auto Detail</Navbar.Brand>
+    <Navbar.Brand as={Link} to="/">Freddy's Auto Detail</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
       <Nav
