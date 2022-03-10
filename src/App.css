@@ -8,7 +8,8 @@ h5 {
   color: rgb(100, 69, 69);
 }
 
-h1 {
+h1,
+.one {
   margin: 30px;
   padding: 30px;
 }
