@@ -4,6 +4,7 @@
 body {
   margin: 2px;
   padding: 3px;
+  background-color: rgba(133, 109, 109, 0.151);
 }
 p,
 h6,
@@ -13,12 +14,15 @@ h5 {
   color: rgb(100, 69, 69);
 }
 .two {
+  padding: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   height: auto;
+  border-radius: 3px;
 }
+
 
 h1,
 .one {
@@ -26,7 +30,7 @@ h1,
   padding: 30px;
 }
 
-.footer1 {
-  border-top: 1px solid;
+footer {
+  border-top: 1px solid orange;
   background-color: rgba(192, 191, 191, 0.151);
 }

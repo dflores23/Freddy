@@ -1,12 +1,7 @@
 import React from 'react';
-import {
-    MDBFooter,
-    MDBContainer,
-    MDBIcon,
+import {MDBFooter} from 'mdb-react-ui-kit';
 
-} from 'mdb-react-ui-kit';
-
-export default function App() {
+export default function Footer() {
     return (
         <MDBFooter className='footer1'>
 
@@ -36,10 +31,7 @@ export default function App() {
             </section>
 
             <div className='text-center p-2' style={{ backgroundColor: 'rgba(0, 0, 0, 0.02)' }}>
-                © 2022 Copyright:
-                <a className='text-reset fst-italic' href='https://mdbootstrap.com/'>
-                    David Flores
-                </a>
+                © 2022 Copyright: <a href="https://df-developer.netlify.app/">David Flores</a>
             </div>
         </MDBFooter>
     );
