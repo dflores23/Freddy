@@ -6,7 +6,7 @@ export const Servicios = () => {
         <div class="text-center text-uppercase">
            <h1>Servicios</h1>
                 <p>Detallado Estético exterior </p>
-                    <img src="https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/121682880_778678316022028_5850863597883325717_n.jpg?stp=dst-jpg_p206x206&_nc_cat=103&ccb=1-5&_nc_sid=7aed08&_nc_ohc=MIuZfW04h6oAX88GRSw&_nc_ht=scontent-den4-1.xx&oh=00_AT8VCSCxwRbRXP6ffsCMQ1ao_UYcCq-XUdMU2Awk7gcw8g&oe=62451C11" alt="" class="rounded mx-auto d-block" />
+                    <img  src="https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/121682880_778678316022028_5850863597883325717_n.jpg?stp=dst-jpg_p206x206&_nc_cat=103&ccb=1-5&_nc_sid=7aed08&_nc_ohc=MIuZfW04h6oAX88GRSw&_nc_ht=scontent-den4-1.xx&oh=00_AT8VCSCxwRbRXP6ffsCMQ1ao_UYcCq-XUdMU2Awk7gcw8g&oe=62451C11" alt="" class="rounded mx-auto d-block" />
                
                 
                 <p>Descontaminación</p>
