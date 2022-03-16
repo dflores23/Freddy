@@ -23,7 +23,7 @@ li{
   font-size: 1rem;
   font-family: "Cinzel", serif;
   color: rgb(100, 69, 69);
-  margin: 20px;
+  margin: 5px;
 }
 
 .name{
@@ -73,3 +73,8 @@ footer {
   background-color: rgba(192, 191, 191, 0.151);
 }
 
+.video {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
