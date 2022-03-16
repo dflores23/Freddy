@@ -9,9 +9,13 @@ body {
 p,
 h6,
 h1,
-h5 {
+h5,
+h2 {
   font-family: "Cinzel", serif;
   color: rgb(100, 69, 69);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .name{
@@ -42,6 +46,15 @@ h5 {
   height: auto;
   border-radius: 50%;
 }
+
+
+
+.fotoservicio {
+  width: 30%;
+  height: auto;
+  border-radius: 2%; 
+}
+
 
 h1,
 .one {
