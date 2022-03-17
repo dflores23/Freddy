@@ -16,6 +16,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p,
@@ -36,12 +38,12 @@ li{
   padding: 3px;
 }
 
-.two {
+.header {
   padding: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 3px;
 }
@@ -73,8 +75,5 @@ footer {
   background-color: rgba(192, 191, 191, 0.151);
 }
 
-.video {
-  width: 100%;
-  height: auto;
-  border-radius: 3px;
-}
+
+
