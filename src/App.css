@@ -4,7 +4,7 @@
 body {
   margin: 2px;
   padding: 0px;
-  background-color: rgba(133, 109, 109, 0.151);
+  background-color: rgba(202, 202, 202, 0.151);
 }
 p,
 h6,
@@ -28,13 +28,14 @@ li{
   margin: 5px;
 }
 
-.name{
+.name,
+.hola{
   font-family: "Cinzel", serif;
   color: rgb(100, 69, 69);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3px;
+  margin: 40px;
   padding: 3px;
 }
 
@@ -43,9 +44,9 @@ li{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 850px;
   height: auto;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .fotoequipo{
   width: 30%;
@@ -63,7 +64,9 @@ li{
   max-height: 100%; 
 }
 
-
+span {
+  color: black;
+}
 h1,
 .one {
   margin: 30px;

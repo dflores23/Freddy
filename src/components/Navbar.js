@@ -9,13 +9,14 @@ export default function Bar() {
   return (
     <Navbar sticky='top' bg="light" expand="sm">
       <Container>
-        <NavbarBrand as={Link} to="/"><img 
-          src="https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/170693964_886516878571504_3767216802158685553_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_ohc=DTzVJa5ujuwAX9_ah6H&_nc_ht=scontent-den4-1.xx&oh=00_AT9EFjoxbNXOIWPE843cwm-yTspFU5xCE6ZUGEkvhR9ucg&oe=6243AE1D"
+        <NavbarBrand as={Link} to="/">
+          <img 
+          src="img/icons/viva1.png"
           width="90"
           height="60"
           className="d-inline-block align-top"
-          alt="freddy logo"
-        />Freddy's Auto Detail</NavbarBrand>
+          alt=""/>
+          Viva Mexi-coffee</NavbarBrand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           aria-expanded="false"
@@ -25,9 +26,9 @@ export default function Bar() {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" navbar>
-            <Nav.Link as={Link} to="/">Inicio</Nav.Link>
-            <Nav.Link as={Link} to="equipo">Equipo</Nav.Link>
-            <Nav.Link as={Link} to="servicios">Servicios</Nav.Link>
+            <Nav.Link as={Link} to="/" >home</Nav.Link>
+            <Nav.Link as={Link} to="equipo">Drinks</Nav.Link>
+            <Nav.Link as={Link} to="servicios">Food</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

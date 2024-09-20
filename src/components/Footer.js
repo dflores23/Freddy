@@ -9,21 +9,18 @@ export default function Footer() {
                 <div className='text-center'>
                     <div className='row mt-5'>
                         <div>
-                            <h6>Contacto</h6>
+                            <h6>General Information</h6>
                             <p className="text-center">
-                                Guadalajara, Jalisco 44898, MX
+                                Addresses: 4900 E Colfax Ave, Denver, CO 80220
                             </p>
                             <p className='text-center'>
-                                freddy_detallado@hotmail.com
+                                vivacoffee@gmail.com
                             </p>
                             <p className='text-center'>
-                                Abierto de Lunes a Viernes 9:00 am - 7:00pm
+                                Open Daily 6:00am - 3:00pm
                             </p>
                             <p className='text-center'>
-                                Sabados 9:00 am - 2:00pm
-                            </p>
-                            <p className='text-center'>
-                                +52 33 3384 2373
+                            (720) 327-0267
                             </p>
                         </div>
                     </div>

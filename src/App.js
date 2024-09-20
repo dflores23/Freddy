@@ -1,5 +1,5 @@
 import './App.css';
-import Bar from './components/Navbar';
+import Nav from './components/Navbar';
 import Inicio from './pages/Inicio';
 import Equipo from './pages/Equipo';
 import { Routes, Route } from 'react-router-dom';
@@ -17,7 +17,7 @@ import Audio from './pages/Audio';
 function App() {
   return (
     <div className="body">
-      <Bar />
+      <Nav />
       <Header />
       <Routes>
         <Route exact path="/" element={<Inicio />} />,
