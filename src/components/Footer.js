@@ -14,7 +14,7 @@ export default function Footer() {
                                 Addresses: 4900 E Colfax Ave, Denver, CO 80220
                             </p>
                             <p className='text-center'>
-                                vivacoffee@gmail.com
+                                vivacoffee
                             </p>
                             <p className='text-center'>
                                 Open Daily 6:00am - 3:00pm

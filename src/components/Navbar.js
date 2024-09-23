@@ -10,13 +10,13 @@ export default function Bar() {
     <Navbar sticky='top' bg="light" expand="sm">
       <Container>
         <NavbarBrand as={Link} to="/">
-          <img 
+          {/* <img 
           src="img/icons/viva1.png"
           width="90"
           height="60"
           className="d-inline-block align-top"
-          alt=""/>
-          Viva Mexi-coffee</NavbarBrand>
+          alt=""/> */}
+          Viva Mexi Coffee Shop</NavbarBrand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           aria-expanded="false"
@@ -26,9 +26,9 @@ export default function Bar() {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" navbar>
-            <Nav.Link as={Link} to="/" >home</Nav.Link>
-            <Nav.Link as={Link} to="equipo">Drinks</Nav.Link>
-            <Nav.Link as={Link} to="servicios">Food</Nav.Link>
+            <Nav.Link as={Link} to="/" >HOME</Nav.Link>
+            <Nav.Link as={Link} to="drinks">DRINKS</Nav.Link>
+            <Nav.Link as={Link} to="servicios">FOOD</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

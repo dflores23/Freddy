@@ -1,7 +1,7 @@
 import './App.css';
 import Nav from './components/Navbar';
 import Inicio from './pages/Inicio';
-import Equipo from './pages/Equipo';
+import Drinks from './pages/Drinks';
 import { Routes, Route } from 'react-router-dom';
 import { Servicios } from './pages/Servicios';
 import Header from './pages/Header';
@@ -21,7 +21,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Inicio />} />,
-        <Route path="/equipo" element={<Equipo />} />,
+        <Route path="/drinks" element={<Drinks />} />,
         <Route path="/servicios" element={<Servicios />} />,
         <Route path="/polarizado" element={<Polarizado />} />,
         <Route path="/detallado" element={<Detallado />} />,
