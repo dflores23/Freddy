@@ -14,10 +14,10 @@ export default function Footer() {
                                 Addresses: 4900 E Colfax Ave, Denver, CO 80220
                             </p>
                             <p className='text-center'>
-                                vivacoffee
+                                viva! mexi-coffee-shop
                             </p>
                             <p className='text-center'>
-                                Open Daily 6:00am - 3:00pm
+                                Open Daily 7:00am - 3:00pm
                             </p>
                             <p className='text-center'>
                             (720) 327-0267
@@ -28,7 +28,7 @@ export default function Footer() {
             </section>
 
             <div className='text-center p-2' style={{ backgroundColor: 'rgba(0, 0, 0, 0.02)' }}>
-                © 2022 Copyright: <a href="https://df-developer.netlify.app/">David Flores</a>
+                © 2024 Copyright: <a href="https://df-developer.netlify.app/">David Flores</a>
             </div>
         </MDBFooter>
     );
