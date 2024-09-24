@@ -28,7 +28,7 @@ export default function Bar() {
           <Nav className="mr-auto" navbar>
             <Nav.Link as={Link} to="/" >HOME</Nav.Link>
             <Nav.Link as={Link} to="drinks">DRINKS</Nav.Link>
-            <Nav.Link as={Link} to="servicios">FOOD</Nav.Link>
+            <Nav.Link as={Link} to="food">FOOD</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
